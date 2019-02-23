@@ -28,10 +28,13 @@
 
 /* Modal Content (Image) */
 .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 100%;
+  margin: auto;
+  display: block;
+  height: 80%;
+  width: 80%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
