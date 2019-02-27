@@ -720,4 +720,6 @@ sum(yellow_congestion_weekly$rides)/sum(yellow_weekly$rides[-78])
 
 sum(uber_congestion_weekly$rides)/sum(uber_weekly$rides[-78])
 
+sum(green_congestion_weekly$rides)/sum((yellow_congestion_weekly$rides+green_congestion_weekly$rides))
 
+mean(green_congestion_weekly$rides/green_weekly$rides[-78])
