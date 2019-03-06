@@ -59,23 +59,67 @@
                 <hr>
             </div>
             
-            <div class="eighthundredpx" id="Graphs">
+            <div class="eighthundredpx" id="Title and Note">
+                <h2 style="margin-left: 5px"> NYC Taxis, Lyft, and Uber Ridership Graphs: Data from January 2015 to June 2018</h2>
+                
+                <p style="margin-left: 15px"> <strong> Note:</strong> Green taxis and Yellow taxis have been added together under "Taxis". Lyft data begins in April 2015. </p>
+                
+                
+            </div>
+            
+            
+            
+            
+            
+            <div class="eighthundredpx" id="Monthly Graphs">
+                <h2 style="margin-left: 5px"> Trips Aggregated by Month: </h2>
+
+                <img class="myImg" src="/documents/Graphs/All_Rides_Monthly_2015_2018.png" alt="Monthly TLC Records from 2015 to 2018" style="vertical-align:middle;width: 100%;height:100%" >
+                <p style="margin-left: 15px">
+                Observations:<br>
+                
+                In November 2017 the number of monthly Uber trips surpassed that of Taxis<br>
+                
+                In May 2017 the number of monthly Uber + Lyft trips surpassed that of Taxis<br>
+                </p>
+                
+            </div>
+            
+            
+            
+            <div class="eighthundredpx" id="Weekly Graphs">
+                <h2 style="margin-left: 5px"> Trips Aggregated by Week: </h2>
+                
+
+                <img class="myImg" src="/documents/Graphs/All_Rides_Weekly_2015_2018.png" alt="Weekly TLC Records from 2015 to 2018" style="vertical-align:middle;width: 100%;height:100%" >
+                    
+                <p style="margin-left: 15px"><i>
+                Note about x-axis: The date on the x-axis refers to the number of trips of that day plus the ones that occurred in the following 6 days (a total of 7 days): e.g. 04 Jan 2015 refers to the number of trips that took place within and including January 4 and January 10, 2015.</i>
+                </p>
+                    
+                <p style="margin-left: 15px">
+                The weekly graph contains the same information as the monthly graph, however by aggregating the trips by a smaller timeframe we can see more volatility. This increased granularity allow us to observe more clearly the effect that certain events had on these mediums of transportation.
+                <br>
+                Following are a couple of interesting dates:
+                
+                </p>
+                
+                <ul style="list-style-type:disc;">
+                    <li>January 4-5, 2018: A <a href="https://www.nytimes.com/2018/01/04/nyregion/new-york-city-snowstorm.html" target="_blank"> severe winter storm </a> (also colloquially called 'Bomb Cyclone') hit New York City causing Gov. Andrew M. Cuomo to declared a state of emergency, in which restrictions on driving were placed.</li>
+                    <li>November 15-16, 2017: <a href="https://www.nytimes.com/2018/11/16/nyregion/snowstorm-total-delays-commute.html" target="_blank"> A large winter storm </a> caught the city unprepared, and caused significant travel difficulties.</li>
+                </ul>
+                
+                
+            </div>
+            
+            
+            
+            <div class="eighthundredpx" id="Data and Processing">
                 
                 <h2 style="margin-left: 5px"> Taxis, Lyfts, and Uber Graphs  </h2>
                 
                 <p style="margin-left: 15px">The following graphs  were made using   <a href = "https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page" target="_blank"> TLC Trip Records Data</a>.<br /> The data (83 GB) was downloaded and processed using Python and Python Pandas.<br /> The Graphs were created using R. </p>
-
                 
-            
-            </div>
-            
-            <div class="eighthundredpx" id="Historic Graphs">
-                <h2 style="margin-left: 5px"> Graphs from January 2015 to Jun 2018 </h2>
-                <p style="margin-left: 5px"> <strong>Note: </strong> Green taxis and Yellow taxis have been added together under "Taxis". </p>
-                <img class="myImg" src="/documents/Graphs/All_Rides_Monthly_2015_2018.png" alt="Monthly TLC Records from 2015 to 2018" style="vertical-align:middle;width: 100%;height:100%" >
-                
-                <p style="margin-left: 15px"> <br/> <br/> <br/></a> </p>
-                <img class="myImg" src="/documents/Graphs/All_Rides_Weekly_2015_2018.png" alt="Weekly TLC Records from 2015 to 2018" style="vertical-align:middle;width: 100%;height:100%" >
                 
                 
             </div>
